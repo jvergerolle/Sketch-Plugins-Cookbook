@@ -1,0 +1,24 @@
+{
+  "author" : "",
+  "commands" : [
+    {
+      "script" : "script.cocoascript",
+      "name" : "Convert Text Layer to Outlines",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "com.bohemiancoding.sketch.runscriptidentifier"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "com.bohemiancoding.sketch.runscriptidentifier"
+    ],
+    "title" : "Convert Text Layer to Outlines"
+  },
+  "identifier" : "com.example.sketch.6acf8c45-bf6b-44d8-921b-39ebb543aab8",
+  "version" : "1.0",
+  "description" : "",
+  "authorEmail" : "",
+  "name" : "Convert Text Layer to Outlines"
+}
