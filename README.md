@@ -394,7 +394,7 @@ Works in:
 
 ## Flatten Layers to Bitmap
 
-### Note: This example currently doesn't work in Sketch 3.3 
+### Note: This example currently doesn't work in Sketch 3.3
 
 In order to flatten one or several layers of any type to a single `MSBitmapLayer`, use `-MSLayerFlattener.flattenLayers:` method. It accepts one arguments which is an array of layers to be flattened.
 
@@ -428,7 +428,7 @@ function convertToOutlines(layer) {
     shape.style = layer.style();
     var style=shape.style();
     if(!style.fill()) {
-        var fill=style.fills().addNewStylePart();
+        var fill = style.addStylePartOfType(0);
         fill.color = MSColor.colorWithNSColor(layer.style().textStyle().attributes().NSColor);
     }
 
@@ -453,7 +453,7 @@ Complete examples:
 - [Convert Text Layer to Outlines.sketchplugin](./Samples/Convert Text Layer to Outlines.sketchplugin)
 
 Works in:
-- Sketch 3.1 +
+- Sketch 3.8 +
 
 ## Get Points Coords Along the Shape Path
 
