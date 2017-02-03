@@ -173,8 +173,8 @@ path.moveToPoint(NSMakePoint(10,10));
 path.lineToPoint(NSMakePoint(200,200));
 
 var shape = MSShapeGroup.shapeWithBezierPath(path);
-var border = shape.style().borders().addNewStylePart();
-border.color = MSColor.colorWithSVGString("#dd0000");
+var border = shape.style().addStylePartOfType(1);
+border.color = MSColor.colorWithSVGString("#dd0000").newMutableCounterpart();
 border.thickness = 2;
 
 doc.currentPage().addLayers([shape]);
@@ -193,8 +193,8 @@ path.moveToPoint(NSMakePoint(84.5,161));
 [path curveToPoint:NSMakePoint(3,79.5) controlPoint1:NSMakePoint(39.5,-2) controlPoint2:NSMakePoint(3,34.5)];
 
 var shape = MSShapeGroup.shapeWithBezierPath(path);
-var border = shape.style().borders().addNewStylePart();
-border.color = MSColor.colorWithSVGString("#dd0000");
+var border = shape.style().addStylePartOfType(1);
+border.color = MSColor.colorWithSVGString("#dd0000").newMutableCounterpart();
 border.thickness = 2;
 
 doc.currentPage().addLayers([shape]);
@@ -205,7 +205,7 @@ Complete examples:
 - [Create Curved Line Shape.sketchplugin](./Samples/Create Curved Line Shape.sketchplugin)
 
 Works in:
-- Sketch 3.2 +
+- Sketch 41 +
 
 ## Set Border Radius for Specific Corners
 
