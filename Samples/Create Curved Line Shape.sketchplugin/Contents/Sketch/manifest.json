@@ -1,0 +1,24 @@
+{
+  "author" : "",
+  "commands" : [
+    {
+      "script" : "script.cocoascript",
+      "name" : "Create Curved Line Shape",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "com.bohemiancoding.sketch.runscriptidentifier"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "com.bohemiancoding.sketch.runscriptidentifier"
+    ],
+    "title" : "Create Curved Line Shape"
+  },
+  "identifier" : "com.example.sketch.9b252dcf-adcd-4ba1-b80f-f8e610503711",
+  "version" : "1.0",
+  "description" : "",
+  "authorEmail" : "",
+  "name" : "Create Curved Line Shape"
+}
