@@ -1,0 +1,24 @@
+{
+  "author" : "",
+  "commands" : [
+    {
+      "script" : "script.cocoascript",
+      "name" : "Create Line Shape",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "com.bohemiancoding.sketch.runscriptidentifier"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "com.bohemiancoding.sketch.runscriptidentifier"
+    ],
+    "title" : "Create Line Shape"
+  },
+  "identifier" : "com.example.sketch.90a5e341-d5f0-4ae9-b365-de3ce066573a",
+  "version" : "1.0",
+  "description" : "",
+  "authorEmail" : "",
+  "name" : "Create Line Shape"
+}
